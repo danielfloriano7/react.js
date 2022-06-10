@@ -7,5 +7,23 @@
     justify-content: space-between;
     color: white;
     align-items: center;
+    
+}
+
+.task-title {
     cursor: pointer;
+}
+
+.remove-task-button,
+.see-task-details-button {
+    background-color: #444;
+    border: none;
+    font-size: 22px;
+    color: #7fff00;
+    cursor: pointer;
+}
+
+.remove-task-button:hover,
+.see-task-details-button:hover {
+    color: rgb(27, 136, 0);
 }
