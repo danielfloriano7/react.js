@@ -7,4 +7,9 @@
     font-size: bold;
     cursor: pointer;
     border: none;
+    transition: background-color 300ms ;
+}
+
+.button:hover {
+    background-color: rgb(59, 160, 0);
 }
